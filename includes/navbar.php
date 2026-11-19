@@ -45,7 +45,6 @@ $user = $logged_in ? getCurrentUser($conn) : null;
           </a>
         </li>
         <li class="nav-item">
->>>>>>> a41cac0 (kelompok 7 well)
           <a class="nav-link <?= $current_page == 'kuis.php' ? 'active' : '' ?>" href="<?= BASE_URL ?>pages/kuis.php">
             <i class="bi bi-patch-question me-1"></i> Kuis Hidrasi
           </a>
